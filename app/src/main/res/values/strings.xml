@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MadarSoftTask</string>
+    <string name="your_name">your name</string>
+    <string name="your_age">your age</string>
+    <string name="your_job_title">Your job title</string>
+    <string name="your_gender">Your gender (F/M)</string>
+    <string name="saveAndNext">Save and Go Next</string>
+    <string name="name">name</string>
+    <string name="age">age</string>
+    <string name="job">job title</string>
+    <string name="gender">gender</string>
+</resources>
