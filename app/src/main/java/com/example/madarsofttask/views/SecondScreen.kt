@@ -1,4 +1,4 @@
-package com.example.madarsofttask
+package com.example.madarsofttask.views
 
 import android.os.Bundle
 import android.util.Log
@@ -7,6 +7,7 @@ import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.madarsofttask.R
 import com.example.madarsofttask.localdb.DBRespository
 import com.example.madarsofttask.localdb.User
 import com.example.madarsofttask.viewmodel.UserViewModel
@@ -41,7 +42,8 @@ class SecondScreen : AppCompatActivity() {
 
             }
             Log.i("TAG", "onCreate: $users")
-            adapter = SecondScreenAdapter(this.users)
+            adapter =
+                SecondScreenAdapter(this.users)
             recyclerView.adapter = adapter
 
         })
